@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  background-color: #181818;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.coin-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 64px;
+
+  .coin-search {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      margin-bottom: 32px;
+      text-align: center;
+    }
+  }
+}
+
+.coin-input {
+  padding-left: 15px;
+  width: 300px;
+  height: 50px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  background-color: rgb(58, 58, 58);
+}
+
+.info {
+  display: flex;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 80px;
+  h4 {
+    padding: 0px 54px;
+    color: whitesmoke;
+  }
+  
+}
+
+.coin-container {
+  display: flex;
+  justify-content: center;
+}
+
+.coin-row {
+  display: flex;
+  flex-direction: row;
+  justify-items: start;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid rgb(190, 190, 190);
+  width: 1100px;
+}
+
+.coin {
+  display: flex;
+  align-items: center;
+  min-width: 300px;
+  margin-left: 15px;
+  h1 {
+    font-size: 16px;
+    width: 150px;
+  }
+  img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+}
+
+.coin-data {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.coin-price {
+  width: 110px;
+  margin-left: 50px;
+}
+
+.coin-volume {
+  width: 155px;
+}
+
+.coin-marketcap {
+  width: 230px;
+}
+
+.coin-percent {
+  width: 100%;
+}
+
+.red {
+  color: #f00606;
+}
+
+.green {
+  color: #11d811;
+}
+
+@import 'Responsive';
