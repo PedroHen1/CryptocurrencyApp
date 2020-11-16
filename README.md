@@ -1,9 +1,11 @@
 # Cryptocurrency App [![Netlify Status](https://api.netlify.com/api/v1/badges/e8c16538-e359-483c-94d8-12f6ac84b70f/deploy-status)](https://app.netlify.com/sites/bestestofados/deploys)
 
 ## Exemplo: 
-![estofadosprint](https://user-images.githubusercontent.com/71141025/99147445-bd9f1480-265f-11eb-9117-1987b9a88dd5.jpg)
+![cryptoprint](https://user-images.githubusercontent.com/71141025/99312915-7ec6b580-283d-11eb-8c76-606f2b66171c.jpg)
 
-Nesse website utilizei as seguintes ferramentas, Html5, Css3, Bootstrap e React.js.
+
+
+Nesse website utilizei as seguintes ferramentas: Html5, Css3, Sass, React.js, Axios.
 
 ### Para iniciar, simplesmente crie um react app em sua máquina
 
@@ -29,7 +31,7 @@ code .
 npm install node-sass
 ```
 
-##API LINK: https://www.coingecko.com/pt/api
+### API LINK: https://www.coingecko.com/pt/api
 
 ### DEMO:
 https://cryptoo.netlify.app/
