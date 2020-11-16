@@ -10,13 +10,13 @@ Nesse website utilizei as seguintes ferramentas: Html5, Css3, Sass, React.js, Ax
 ### Para iniciar, simplesmente crie um react app em sua máquina
 
 ```
-npx create-react-app react-modal
+npx create-react-app nome-do-app
 ```
 ### Entao...
 
 
 ```
-cd react-modal
+cd nome-do-app
 ```
 ### Se voce usa o VS code e tem a ferramenta de abrir automaticamente, entao voce pode digitar isso para abrir seu editor automaticamente
 
